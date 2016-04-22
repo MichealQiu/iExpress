@@ -1,0 +1,6 @@
+framework module Pods_iExpress {
+  umbrella header "Pods-iExpress-umbrella.h"
+
+  export *
+  module * { export * }
+}

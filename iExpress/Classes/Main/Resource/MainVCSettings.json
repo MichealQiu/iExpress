@@ -1,0 +1,17 @@
+[
+ {
+    "vcName": "MyExpressViewController",
+    "title": "我的快递",
+    "imageName": "tabbar_me"
+ },
+ {
+     "vcName": "CheckExpressViewController",
+     "title": "查找快递",
+     "imageName": "tabbar_check"
+ },
+ {
+     "vcName": "SendExpressViewController",
+     "title": "寄快递",
+     "imageName": "tabbar_send"
+ }
+ ]

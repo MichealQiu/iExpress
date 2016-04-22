@@ -1,0 +1,10 @@
+
+target 'iExpress' do
+
+platform :ios, ’8.0’
+use_frameworks!
+pod 'SnapKit'
+pod 'MMDrawerController'
+pod 'Alamofire'
+
+end

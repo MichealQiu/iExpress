@@ -7,15 +7,43 @@
 //
 
 import UIKit
+import MMDrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var drawerController: MMDrawerController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        1.创建window
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.backgroundColor = UIColor.whiteColor()
+//        2.创建根控制器
+        let centerViewController = defaultController()
+//        let centerNav = UINavigationController(rootViewController: centerViewController)
+        
+        let leftMenuViewControllor = LeftMenuViewController()
+        drawerController = MMDrawerController(centerViewController: centerViewController, leftDrawerViewController: leftMenuViewControllor)
+        drawerController.maximumLeftDrawerWidth = UIScreen.mainScreen().bounds.maxX * 0.8
+        //手势
+        drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureMode.All
+        drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.All
+        //设置动画，这里是设置打开侧栏透明度从0到1
+        drawerController.setDrawerVisualStateBlock { (drawerController, drawerSide, percentVisible) in
+            var sideDrawerViewController:UIViewController?
+            if(drawerSide == MMDrawerSide.Left){
+                sideDrawerViewController = drawerController.leftDrawerViewController;
+            }
+            sideDrawerViewController?.view.alpha = percentVisible
+        }
+        
+        window?.rootViewController = drawerController
+        window?.makeKeyAndVisible()
+
+        customizeAppearance()
+        
         return true
     }
 
@@ -41,6 +69,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+//    MARK: - Method add by myself
+    private func defaultController() -> UIViewController {
+        return MainViewController()
+    }
+    
+    func customizeAppearance() {
+        UITabBar.appearance().tintColor = UIColor.lightGreenColor()
+    }
 
 }
 

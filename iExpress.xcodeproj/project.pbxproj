@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		461F72781CC8708A003B3C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72771CC8708A003B3C2D /* AppDelegate.swift */; };
-		461F727A1CC8708A003B3C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72791CC8708A003B3C2D /* ViewController.swift */; };
-		461F727D1CC8708A003B3C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F727B1CC8708A003B3C2D /* Main.storyboard */; };
-		461F727F1CC8708A003B3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F727E1CC8708A003B3C2D /* Assets.xcassets */; };
 		461F72821CC8708A003B3C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F72801CC8708A003B3C2D /* LaunchScreen.storyboard */; };
 		461F728D1CC8708B003B3C2D /* iExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F728C1CC8708B003B3C2D /* iExpressTests.swift */; };
 		461F72981CC8708B003B3C2D /* iExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72971CC8708B003B3C2D /* iExpressUITests.swift */; };
+		461F72B01CC87BAA003B3C2D /* MyExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */; };
+		461F72B21CC87BB8003B3C2D /* SendExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */; };
+		461F72B41CC87BC1003B3C2D /* CheckExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */; };
+		461F72B91CC87BE0003B3C2D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B61CC87BE0003B3C2D /* MainViewController.swift */; };
+		461F72BA1CC87BE0003B3C2D /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 461F72B81CC87BE0003B3C2D /* MainVCSettings.json */; };
+		461F72BD1CC87D59003B3C2D /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */; };
+		461F72C81CC90FB3003B3C2D /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */; };
+		461F72CA1CC91650003B3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F72C91CC91650003B3C2D /* Assets.xcassets */; };
+		461F72CF1CC920F2003B3C2D /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */; };
+		D77FA797F3C06F4E0DD9F530 /* Pods_iExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +43,6 @@
 /* Begin PBXFileReference section */
 		461F72741CC8708A003B3C2D /* iExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F72771CC8708A003B3C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		461F72791CC8708A003B3C2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		461F727C1CC8708A003B3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		461F727E1CC8708A003B3C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461F72811CC8708A003B3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461F72831CC8708A003B3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F72881CC8708B003B3C2D /* iExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,18 @@
 		461F72931CC8708B003B3C2D /* iExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F72971CC8708B003B3C2D /* iExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpressUITests.swift; sourceTree = "<group>"; };
 		461F72991CC8708B003B3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExpressViewController.swift; sourceTree = "<group>"; };
+		461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendExpressViewController.swift; sourceTree = "<group>"; };
+		461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckExpressViewController.swift; sourceTree = "<group>"; };
+		461F72B61CC87BE0003B3C2D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		461F72B81CC87BE0003B3C2D /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
+		461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		461F72C91CC91650003B3C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77FA797F3C06F4E0DD9F530 /* Pods_iExpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				461F728B1CC8708B003B3C2D /* iExpressTests */,
 				461F72961CC8708B003B3C2D /* iExpressUITests */,
 				461F72751CC8708A003B3C2D /* Products */,
+				C15F1B4F8FC13DABA1DCDABC /* Pods */,
+				ADE8F39FC79146BDCAD1A508 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				461F72771CC8708A003B3C2D /* AppDelegate.swift */,
-				461F72791CC8708A003B3C2D /* ViewController.swift */,
-				461F727B1CC8708A003B3C2D /* Main.storyboard */,
-				461F727E1CC8708A003B3C2D /* Assets.xcassets */,
+				461F72A51CC874F2003B3C2D /* Classes */,
 				461F72801CC8708A003B3C2D /* LaunchScreen.storyboard */,
+				461F72C91CC91650003B3C2D /* Assets.xcassets */,
 				461F72831CC8708A003B3C2D /* Info.plist */,
 			);
 			path = iExpress;
@@ -125,6 +143,94 @@
 			path = iExpressUITests;
 			sourceTree = "<group>";
 		};
+		461F72A51CC874F2003B3C2D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				461F72BB1CC87D14003B3C2D /* Tool */,
+				461F72CB1CC920F2003B3C2D /* LeftMenu */,
+				461F72B51CC87BE0003B3C2D /* Main */,
+				461F72A61CC874F2003B3C2D /* CheckExpress */,
+				461F72A71CC874F2003B3C2D /* MyExpress */,
+				461F72A81CC874F2003B3C2D /* SendExpress */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		461F72A61CC874F2003B3C2D /* CheckExpress */ = {
+			isa = PBXGroup;
+			children = (
+				461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */,
+			);
+			path = CheckExpress;
+			sourceTree = "<group>";
+		};
+		461F72A71CC874F2003B3C2D /* MyExpress */ = {
+			isa = PBXGroup;
+			children = (
+				461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */,
+			);
+			path = MyExpress;
+			sourceTree = "<group>";
+		};
+		461F72A81CC874F2003B3C2D /* SendExpress */ = {
+			isa = PBXGroup;
+			children = (
+				461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */,
+			);
+			path = SendExpress;
+			sourceTree = "<group>";
+		};
+		461F72B51CC87BE0003B3C2D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				461F72B61CC87BE0003B3C2D /* MainViewController.swift */,
+				461F72B71CC87BE0003B3C2D /* Resource */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		461F72B71CC87BE0003B3C2D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				461F72B81CC87BE0003B3C2D /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		461F72BB1CC87D14003B3C2D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */,
+				461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		461F72CB1CC920F2003B3C2D /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		ADE8F39FC79146BDCAD1A508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15F1B4F8FC13DABA1DCDABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */,
+				D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461F729C1CC8708B003B3C2D /* Build configuration list for PBXNativeTarget "iExpress" */;
 			buildPhases = (
+				78266FE33DA8CFD8A02FC5E6 /* Check Pods Manifest.lock */,
 				461F72701CC8708A003B3C2D /* Sources */,
 				461F72711CC8708A003B3C2D /* Frameworks */,
 				461F72721CC8708A003B3C2D /* Resources */,
+				73AB925D581A867B65510D9E /* Embed Pods Frameworks */,
+				DB2B9C6B64C2D9A0DA23E93E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F72821CC8708A003B3C2D /* LaunchScreen.storyboard in Resources */,
-				461F727F1CC8708A003B3C2D /* Assets.xcassets in Resources */,
-				461F727D1CC8708A003B3C2D /* Main.storyboard in Resources */,
+				461F72CA1CC91650003B3C2D /* Assets.xcassets in Resources */,
+				461F72BA1CC87BE0003B3C2D /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +363,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73AB925D581A867B65510D9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iExpress/Pods-iExpress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78266FE33DA8CFD8A02FC5E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2B9C6B64C2D9A0DA23E93E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iExpress/Pods-iExpress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		461F72701CC8708A003B3C2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461F727A1CC8708A003B3C2D /* ViewController.swift in Sources */,
+				461F72C81CC90FB3003B3C2D /* UIBarButtonItem+Category.swift in Sources */,
+				461F72B41CC87BC1003B3C2D /* CheckExpressViewController.swift in Sources */,
 				461F72781CC8708A003B3C2D /* AppDelegate.swift in Sources */,
+				461F72B21CC87BB8003B3C2D /* SendExpressViewController.swift in Sources */,
+				461F72BD1CC87D59003B3C2D /* UIColor+Category.swift in Sources */,
+				461F72B01CC87BAA003B3C2D /* MyExpressViewController.swift in Sources */,
+				461F72CF1CC920F2003B3C2D /* LeftMenuViewController.swift in Sources */,
+				461F72B91CC87BE0003B3C2D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +459,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		461F727B1CC8708A003B3C2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				461F727C1CC8708A003B3C2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		461F72801CC8708A003B3C2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -400,6 +555,7 @@
 		};
 		461F729D1CC8708B003B3C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iExpress/Info.plist;
@@ -411,6 +567,7 @@
 		};
 		461F729E1CC8708B003B3C2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iExpress/Info.plist;
@@ -485,6 +642,7 @@
 				461F729E1CC8708B003B3C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F729F1CC8708B003B3C2D /* Build configuration list for PBXNativeTarget "iExpressTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +651,7 @@
 				461F72A11CC8708B003B3C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F72A21CC8708B003B3C2D /* Build configuration list for PBXNativeTarget "iExpressUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +660,7 @@
 				461F72A41CC8708B003B3C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
