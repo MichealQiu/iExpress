@@ -6,5 +6,7 @@ use_frameworks!
 pod 'SnapKit'
 pod 'MMDrawerController'
 pod 'Alamofire'
+pod 'SVProgressHUD'
+pod 'ObjectMapper’
 
 end

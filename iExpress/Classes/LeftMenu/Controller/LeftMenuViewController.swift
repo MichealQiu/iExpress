@@ -27,7 +27,6 @@ class LeftMenuViewController: UIViewController, UITableViewDelegate, UITableView
     
     func setTableView(){
         
-        
         tableView = UITableView(frame: CGRectMake(0, UIScreen.mainScreen().bounds.height / 3.0, UIScreen.mainScreen().bounds.maxX * 0.8, view.frame.height), style: UITableViewStyle.Plain)
         tableView.backgroundColor = UIColor.clearColor()
         tableView.delegate = self
@@ -35,9 +34,7 @@ class LeftMenuViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.separatorStyle = UITableViewCellSeparatorStyle.SingleLine
         view.addSubview(tableView)
         
-        //设置headView
         tableView.separatorStyle = .None
-//        tableView.tableHeaderView = headImageView
         //去掉下部空白格
         self.tableView.tableFooterView = UIView()
         
@@ -62,7 +59,7 @@ class LeftMenuViewController: UIViewController, UITableViewDelegate, UITableView
         var cell = tableView.dequeueReusableCellWithIdentifier(identifier)
         
         if cell == nil {
-            cell=UITableViewCell(style: .Value1, reuseIdentifier: identifier)
+            cell = UITableViewCell(style: .Value1, reuseIdentifier: identifier)
             cell!.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
             cell!.selectionStyle = .None
         }
@@ -97,6 +94,10 @@ class LeftMenuViewController: UIViewController, UITableViewDelegate, UITableView
 //            appDelegate.drawerController.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
 //        }
         
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
     }
     
 }

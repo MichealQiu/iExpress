@@ -12,16 +12,22 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
+  - ObjectMapper (1.0.1)
   - SnapKit (0.18.0)
+  - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
   - Alamofire
   - MMDrawerController
+  - ObjectMapper
   - SnapKit
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
   SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
 COCOAPODS: 0.39.0

@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var drawerController: MMDrawerController!
 
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
 //        1.创建window
@@ -76,6 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func customizeAppearance() {
         UITabBar.appearance().tintColor = UIColor.lightGreenColor()
+        
     }
 
 }

@@ -11,15 +11,30 @@
 		461F72821CC8708A003B3C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F72801CC8708A003B3C2D /* LaunchScreen.storyboard */; };
 		461F728D1CC8708B003B3C2D /* iExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F728C1CC8708B003B3C2D /* iExpressTests.swift */; };
 		461F72981CC8708B003B3C2D /* iExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72971CC8708B003B3C2D /* iExpressUITests.swift */; };
-		461F72B01CC87BAA003B3C2D /* MyExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */; };
-		461F72B21CC87BB8003B3C2D /* SendExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */; };
-		461F72B41CC87BC1003B3C2D /* CheckExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */; };
-		461F72B91CC87BE0003B3C2D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72B61CC87BE0003B3C2D /* MainViewController.swift */; };
 		461F72BA1CC87BE0003B3C2D /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 461F72B81CC87BE0003B3C2D /* MainVCSettings.json */; };
 		461F72BD1CC87D59003B3C2D /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */; };
 		461F72C81CC90FB3003B3C2D /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */; };
 		461F72CA1CC91650003B3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F72C91CC91650003B3C2D /* Assets.xcassets */; };
-		461F72CF1CC920F2003B3C2D /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */; };
+		461F72D31CC9E687003B3C2D /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72D21CC9E687003B3C2D /* MyNavigationController.swift */; };
+		461F72D71CCDBDC8003B3C2D /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72D61CCDBDC8003B3C2D /* String+Category.swift */; };
+		461F72DD1CCDF723003B3C2D /* Character+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F72DC1CCDF723003B3C2D /* Character+Category.swift */; };
+		461F72EF1CCE250B003B3C2D /* JuheApisSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F72EE1CCE250B003B3C2D /* JuheApisSDK.a */; };
+		461F72F51CCE296B003B3C2D /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F72E51CCE1483003B3C2D /* libc++.1.dylib */; };
+		461F72F71CCE2BD4003B3C2D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F72F61CCE2BD4003B3C2D /* AdSupport.framework */; };
+		461F72F91CCE2C1E003B3C2D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461F72F81CCE2C1E003B3C2D /* CoreTelephony.framework */; };
+		461F73031CCF6412003B3C2D /* express.plist in Resources */ = {isa = PBXBuildFile; fileRef = 461F73021CCF6412003B3C2D /* express.plist */; };
+		4621E9B31CCF92C300A22EBF /* CheckExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9AB1CCF92C300A22EBF /* CheckExpressViewController.swift */; };
+		4621E9B41CCF92C300A22EBF /* ExpressCompanyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9AC1CCF92C300A22EBF /* ExpressCompanyTableViewController.swift */; };
+		4621E9B51CCF92C300A22EBF /* ExpressResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9AD1CCF92C300A22EBF /* ExpressResultTableViewController.swift */; };
+		4621E9B61CCF92C300A22EBF /* ExpressCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9AF1CCF92C300A22EBF /* ExpressCompany.swift */; };
+		4621E9B71CCF92C300A22EBF /* ExpressResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9B01CCF92C300A22EBF /* ExpressResult.swift */; };
+		4621E9B81CCF92C300A22EBF /* ExpressCompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9B21CCF92C300A22EBF /* ExpressCompanyTableViewCell.swift */; };
+		4621E9BB1CCF92F300A22EBF /* MyExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9BA1CCF92F300A22EBF /* MyExpressViewController.swift */; };
+		4621E9BE1CCF930F00A22EBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9BD1CCF930F00A22EBF /* MainViewController.swift */; };
+		4621E9C11CCF933A00A22EBF /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C01CCF933A00A22EBF /* LeftMenuViewController.swift */; };
+		4621E9C41CCF935E00A22EBF /* SendExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C31CCF935E00A22EBF /* SendExpressViewController.swift */; };
+		4621E9C61CCF960800A22EBF /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C51CCF960800A22EBF /* UILabel+Category.swift */; };
+		4621E9C81CCFA3B300A22EBF /* ExpressCompanyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C71CCFA3B300A22EBF /* ExpressCompanyGroup.swift */; };
 		D77FA797F3C06F4E0DD9F530 /* Pods_iExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,15 +66,34 @@
 		461F72931CC8708B003B3C2D /* iExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F72971CC8708B003B3C2D /* iExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpressUITests.swift; sourceTree = "<group>"; };
 		461F72991CC8708B003B3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExpressViewController.swift; sourceTree = "<group>"; };
-		461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendExpressViewController.swift; sourceTree = "<group>"; };
-		461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckExpressViewController.swift; sourceTree = "<group>"; };
-		461F72B61CC87BE0003B3C2D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		461F72B81CC87BE0003B3C2D /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
 		461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
 		461F72C91CC91650003B3C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		461F72D21CC9E687003B3C2D /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		461F72D61CCDBDC8003B3C2D /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		461F72D81CCDBE6F003B3C2D /* iExpress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iExpress-Bridging-Header.h"; sourceTree = "<group>"; };
+		461F72DC1CCDF723003B3C2D /* Character+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+Category.swift"; sourceTree = "<group>"; };
+		461F72E51CCE1483003B3C2D /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		461F72EC1CCE250B003B3C2D /* JHAPISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAPISDK.h; sourceTree = "<group>"; };
+		461F72ED1CCE250B003B3C2D /* JHOpenidSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOpenidSupplier.h; sourceTree = "<group>"; };
+		461F72EE1CCE250B003B3C2D /* JuheApisSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JuheApisSDK.a; sourceTree = "<group>"; };
+		461F72F11CCE25D0003B3C2D /* libSystem.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.B.dylib; path = ../../../../../usr/lib/libSystem.B.dylib; sourceTree = "<group>"; };
+		461F72F61CCE2BD4003B3C2D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		461F72F81CCE2C1E003B3C2D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		461F73021CCF6412003B3C2D /* express.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = express.plist; sourceTree = "<group>"; };
+		4621E9AB1CCF92C300A22EBF /* CheckExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckExpressViewController.swift; sourceTree = "<group>"; };
+		4621E9AC1CCF92C300A22EBF /* ExpressCompanyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressCompanyTableViewController.swift; sourceTree = "<group>"; };
+		4621E9AD1CCF92C300A22EBF /* ExpressResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressResultTableViewController.swift; sourceTree = "<group>"; };
+		4621E9AF1CCF92C300A22EBF /* ExpressCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressCompany.swift; sourceTree = "<group>"; };
+		4621E9B01CCF92C300A22EBF /* ExpressResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressResult.swift; sourceTree = "<group>"; };
+		4621E9B21CCF92C300A22EBF /* ExpressCompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressCompanyTableViewCell.swift; sourceTree = "<group>"; };
+		4621E9BA1CCF92F300A22EBF /* MyExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExpressViewController.swift; sourceTree = "<group>"; };
+		4621E9BD1CCF930F00A22EBF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4621E9C01CCF933A00A22EBF /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		4621E9C31CCF935E00A22EBF /* SendExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendExpressViewController.swift; sourceTree = "<group>"; };
+		4621E9C51CCF960800A22EBF /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
+		4621E9C71CCFA3B300A22EBF /* ExpressCompanyGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressCompanyGroup.swift; sourceTree = "<group>"; };
 		AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461F72F91CCE2C1E003B3C2D /* CoreTelephony.framework in Frameworks */,
+				461F72F71CCE2BD4003B3C2D /* AdSupport.framework in Frameworks */,
+				461F72F51CCE296B003B3C2D /* libc++.1.dylib in Frameworks */,
+				461F72EF1CCE250B003B3C2D /* JuheApisSDK.a in Frameworks */,
 				D77FA797F3C06F4E0DD9F530 /* Pods_iExpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +158,7 @@
 				461F72A51CC874F2003B3C2D /* Classes */,
 				461F72801CC8708A003B3C2D /* LaunchScreen.storyboard */,
 				461F72C91CC91650003B3C2D /* Assets.xcassets */,
+				461F73021CCF6412003B3C2D /* express.plist */,
 				461F72831CC8708A003B3C2D /* Info.plist */,
 			);
 			path = iExpress;
@@ -146,28 +185,21 @@
 		461F72A51CC874F2003B3C2D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				461F72E91CCE250B003B3C2D /* JuheApisSDK */,
 				461F72BB1CC87D14003B3C2D /* Tool */,
 				461F72CB1CC920F2003B3C2D /* LeftMenu */,
 				461F72B51CC87BE0003B3C2D /* Main */,
-				461F72A61CC874F2003B3C2D /* CheckExpress */,
 				461F72A71CC874F2003B3C2D /* MyExpress */,
+				4621E9A91CCF92C300A22EBF /* CheckExpress */,
 				461F72A81CC874F2003B3C2D /* SendExpress */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		461F72A61CC874F2003B3C2D /* CheckExpress */ = {
-			isa = PBXGroup;
-			children = (
-				461F72B31CC87BC1003B3C2D /* CheckExpressViewController.swift */,
-			);
-			path = CheckExpress;
-			sourceTree = "<group>";
-		};
 		461F72A71CC874F2003B3C2D /* MyExpress */ = {
 			isa = PBXGroup;
 			children = (
-				461F72AF1CC87BAA003B3C2D /* MyExpressViewController.swift */,
+				4621E9B91CCF92F300A22EBF /* Controller */,
 			);
 			path = MyExpress;
 			sourceTree = "<group>";
@@ -175,7 +207,7 @@
 		461F72A81CC874F2003B3C2D /* SendExpress */ = {
 			isa = PBXGroup;
 			children = (
-				461F72B11CC87BB8003B3C2D /* SendExpressViewController.swift */,
+				4621E9C21CCF935E00A22EBF /* Controller */,
 			);
 			path = SendExpress;
 			sourceTree = "<group>";
@@ -183,7 +215,7 @@
 		461F72B51CC87BE0003B3C2D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				461F72B61CC87BE0003B3C2D /* MainViewController.swift */,
+				4621E9BC1CCF930F00A22EBF /* Controller */,
 				461F72B71CC87BE0003B3C2D /* Resource */,
 			);
 			path = Main;
@@ -202,6 +234,11 @@
 			children = (
 				461F72BC1CC87D59003B3C2D /* UIColor+Category.swift */,
 				461F72C71CC90FB3003B3C2D /* UIBarButtonItem+Category.swift */,
+				461F72D61CCDBDC8003B3C2D /* String+Category.swift */,
+				4621E9C51CCF960800A22EBF /* UILabel+Category.swift */,
+				461F72D21CC9E687003B3C2D /* MyNavigationController.swift */,
+				461F72DC1CCDF723003B3C2D /* Character+Category.swift */,
+				461F72D81CCDBE6F003B3C2D /* iExpress-Bridging-Header.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -209,14 +246,114 @@
 		461F72CB1CC920F2003B3C2D /* LeftMenu */ = {
 			isa = PBXGroup;
 			children = (
-				461F72CD1CC920F2003B3C2D /* LeftMenuViewController.swift */,
+				4621E9BF1CCF933A00A22EBF /* Controller */,
 			);
 			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		461F72E91CCE250B003B3C2D /* JuheApisSDK */ = {
+			isa = PBXGroup;
+			children = (
+				461F72EA1CCE250B003B3C2D /* include */,
+				461F72EE1CCE250B003B3C2D /* JuheApisSDK.a */,
+			);
+			path = JuheApisSDK;
+			sourceTree = "<group>";
+		};
+		461F72EA1CCE250B003B3C2D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				461F72EB1CCE250B003B3C2D /* JuheApisSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		461F72EB1CCE250B003B3C2D /* JuheApisSDK */ = {
+			isa = PBXGroup;
+			children = (
+				461F72EC1CCE250B003B3C2D /* JHAPISDK.h */,
+				461F72ED1CCE250B003B3C2D /* JHOpenidSupplier.h */,
+			);
+			path = JuheApisSDK;
+			sourceTree = "<group>";
+		};
+		4621E9A91CCF92C300A22EBF /* CheckExpress */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9AE1CCF92C300A22EBF /* Model */,
+				4621E9B11CCF92C300A22EBF /* View */,
+				4621E9AA1CCF92C300A22EBF /* Controller */,
+			);
+			path = CheckExpress;
+			sourceTree = "<group>";
+		};
+		4621E9AA1CCF92C300A22EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9AB1CCF92C300A22EBF /* CheckExpressViewController.swift */,
+				4621E9AC1CCF92C300A22EBF /* ExpressCompanyTableViewController.swift */,
+				4621E9AD1CCF92C300A22EBF /* ExpressResultTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4621E9AE1CCF92C300A22EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9C71CCFA3B300A22EBF /* ExpressCompanyGroup.swift */,
+				4621E9AF1CCF92C300A22EBF /* ExpressCompany.swift */,
+				4621E9B01CCF92C300A22EBF /* ExpressResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4621E9B11CCF92C300A22EBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9B21CCF92C300A22EBF /* ExpressCompanyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4621E9B91CCF92F300A22EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9BA1CCF92F300A22EBF /* MyExpressViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4621E9BC1CCF930F00A22EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9BD1CCF930F00A22EBF /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4621E9BF1CCF933A00A22EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9C01CCF933A00A22EBF /* LeftMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4621E9C21CCF935E00A22EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4621E9C31CCF935E00A22EBF /* SendExpressViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		ADE8F39FC79146BDCAD1A508 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				461F72F81CCE2C1E003B3C2D /* CoreTelephony.framework */,
+				461F72F61CCE2BD4003B3C2D /* AdSupport.framework */,
+				461F72F11CCE25D0003B3C2D /* libSystem.B.dylib */,
+				461F72E51CCE1483003B3C2D /* libc++.1.dylib */,
 				C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */,
 			);
 			name = Frameworks;
@@ -342,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F72821CC8708A003B3C2D /* LaunchScreen.storyboard in Resources */,
+				461F73031CCF6412003B3C2D /* express.plist in Resources */,
 				461F72CA1CC91650003B3C2D /* Assets.xcassets in Resources */,
 				461F72BA1CC87BE0003B3C2D /* MainVCSettings.json in Resources */,
 			);
@@ -416,14 +554,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4621E9B81CCF92C300A22EBF /* ExpressCompanyTableViewCell.swift in Sources */,
 				461F72C81CC90FB3003B3C2D /* UIBarButtonItem+Category.swift in Sources */,
-				461F72B41CC87BC1003B3C2D /* CheckExpressViewController.swift in Sources */,
+				461F72D71CCDBDC8003B3C2D /* String+Category.swift in Sources */,
+				4621E9B61CCF92C300A22EBF /* ExpressCompany.swift in Sources */,
+				4621E9B31CCF92C300A22EBF /* CheckExpressViewController.swift in Sources */,
+				461F72DD1CCDF723003B3C2D /* Character+Category.swift in Sources */,
+				4621E9C11CCF933A00A22EBF /* LeftMenuViewController.swift in Sources */,
 				461F72781CC8708A003B3C2D /* AppDelegate.swift in Sources */,
-				461F72B21CC87BB8003B3C2D /* SendExpressViewController.swift in Sources */,
+				4621E9BE1CCF930F00A22EBF /* MainViewController.swift in Sources */,
+				4621E9BB1CCF92F300A22EBF /* MyExpressViewController.swift in Sources */,
+				461F72D31CC9E687003B3C2D /* MyNavigationController.swift in Sources */,
 				461F72BD1CC87D59003B3C2D /* UIColor+Category.swift in Sources */,
-				461F72B01CC87BAA003B3C2D /* MyExpressViewController.swift in Sources */,
-				461F72CF1CC920F2003B3C2D /* LeftMenuViewController.swift in Sources */,
-				461F72B91CC87BE0003B3C2D /* MainViewController.swift in Sources */,
+				4621E9B41CCF92C300A22EBF /* ExpressCompanyTableViewController.swift in Sources */,
+				4621E9C61CCF960800A22EBF /* UILabel+Category.swift in Sources */,
+				4621E9C41CCF935E00A22EBF /* SendExpressViewController.swift in Sources */,
+				4621E9B71CCF92C300A22EBF /* ExpressResult.swift in Sources */,
+				4621E9C81CCFA3B300A22EBF /* ExpressCompanyGroup.swift in Sources */,
+				4621E9B51CCF92C300A22EBF /* ExpressResultTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +639,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -512,6 +661,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -536,6 +686,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -550,6 +701,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
@@ -558,10 +710,19 @@
 			baseConfigurationReference = AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iExpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iExpress/Classes/Tool/JuheApisSDK",
+					"$(PROJECT_DIR)/iExpress/Classes/Tool/JuheApisSDK/include",
+					"$(PROJECT_DIR)/iExpress/Classes/JuheApisSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.michaelqiu.iOS.iExpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iExpress/Classes/Tool/iExpress-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -570,10 +731,18 @@
 			baseConfigurationReference = D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iExpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iExpress/Classes/Tool/JuheApisSDK",
+					"$(PROJECT_DIR)/iExpress/Classes/Tool/JuheApisSDK/include",
+					"$(PROJECT_DIR)/iExpress/Classes/JuheApisSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.michaelqiu.iOS.iExpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iExpress/Classes/Tool/iExpress-Bridging-Header.h";
 			};
 			name = Release;
 		};

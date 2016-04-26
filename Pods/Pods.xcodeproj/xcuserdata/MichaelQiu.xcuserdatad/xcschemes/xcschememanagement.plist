@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-iExpress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A518840C2E2290FEC4623EB90597B88</key>
+		<key>3BFC42A1C2B10D90798F038AF1EC51C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5CADCE472218BD498C4788EFEDD8BD8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF3E9AF4A971157309D8334B185A993</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>96D3562E47E4792B0A6093A0323EB398</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF8B3F2F385672DC5FCE0A56B98D0E46</key>
+		<key>E82421CBEE4F9A6C8D5D9FEC459CE24A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

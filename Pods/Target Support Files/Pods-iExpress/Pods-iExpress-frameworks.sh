@@ -86,10 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-iExpress/Alamofire.framework"
   install_framework "Pods-iExpress/MMDrawerController.framework"
+  install_framework "Pods-iExpress/ObjectMapper.framework"
+  install_framework "Pods-iExpress/SVProgressHUD.framework"
   install_framework "Pods-iExpress/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-iExpress/Alamofire.framework"
   install_framework "Pods-iExpress/MMDrawerController.framework"
+  install_framework "Pods-iExpress/ObjectMapper.framework"
+  install_framework "Pods-iExpress/SVProgressHUD.framework"
   install_framework "Pods-iExpress/SnapKit.framework"
 fi

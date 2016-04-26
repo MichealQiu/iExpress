@@ -66,12 +66,12 @@ class MainViewController: UITabBarController {
         vc.tabBarItem.title = title
         
 //        包装到导航控制器里
-        let nav = UINavigationController(rootViewController: vc)
+        let nav = MyNavigationController(rootViewController: vc)
         nav.navigationBar.barTintColor = UIColor.lightGreenColor()
         nav.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-            
+        nav.navigationBar.tintColor = UIColor.whiteColor()
+        
         addChildViewController(nav)
     }
-
 
 }

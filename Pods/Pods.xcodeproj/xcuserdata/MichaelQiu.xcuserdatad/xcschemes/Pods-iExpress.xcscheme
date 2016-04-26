@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F112F998B92B1752515EA861'
+               BlueprintIdentifier = '4EC6E1F3DC89B347F3CEFC06'
                BlueprintName = 'Pods-iExpress'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_iExpress.framework'>
