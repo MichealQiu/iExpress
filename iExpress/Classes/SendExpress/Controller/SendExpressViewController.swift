@@ -60,6 +60,27 @@ class SendExpressViewController: UITableViewController {
         return (expressCompanyGroups as NSArray).valueForKeyPath("title")! as? [String]
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let expressCompany = expressCompanyGroups[indexPath.section].companys![indexPath.row]
+        
+        let alert = UIAlertController(title: "呼叫\(expressCompany.com)", message: "\(expressCompany.phoneNum)", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let okAction = UIAlertAction(title: "呼叫", style: UIAlertActionStyle.Default) { (action) in
+            print("---呼叫---")
+            UIApplication.sharedApplication().openURL(NSURL(string: "tel://\(expressCompany.phoneNum)")!)
+        }
+        let cancelAction = UIAlertAction(title: "取消", style: UIAlertActionStyle.Default, handler: nil)
+        
+        alert.addAction(cancelAction)
+        alert.addAction(okAction)
+        presentViewController(alert, animated: true, completion: nil)
+        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
+    
+//    MARK: - Method add by myself
+    
+    
 //    MARK: - 懒加载
     lazy var expressCompanyGroups: [ExpressCompanyGroup] = {
         return ExpressCompanyGroup.expressCompanyGroups()

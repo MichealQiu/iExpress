@@ -162,6 +162,14 @@ class CheckExpressViewController: UIViewController {
     
     func scanButtonClick() {
         print(#function)
+                
+        let nav = self.navigationController
+        let vc = QRCodeViewController()
+        vc.hidesBottomBarWhenPushed = true
+        vc.getExpressNum { (expressNum) in
+            self.expressIDTextField.text = expressNum
+        }
+        nav?.pushViewController(vc, animated: true)
     }
     
     
@@ -170,6 +178,10 @@ class CheckExpressViewController: UIViewController {
         
         let nav = self.navigationController
         let vc = ExpressCompanyTableViewController()
+        vc.hidesBottomBarWhenPushed = true
+        vc.getCompanyName { (companyName) in
+            self.expressCompanyButton.setTitle(companyName, forState: UIControlState.Normal)
+        }
         
         nav?.pushViewController(vc, animated: true)
 

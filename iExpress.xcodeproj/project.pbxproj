@@ -35,6 +35,7 @@
 		4621E9C41CCF935E00A22EBF /* SendExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C31CCF935E00A22EBF /* SendExpressViewController.swift */; };
 		4621E9C61CCF960800A22EBF /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C51CCF960800A22EBF /* UILabel+Category.swift */; };
 		4621E9C81CCFA3B300A22EBF /* ExpressCompanyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C71CCFA3B300A22EBF /* ExpressCompanyGroup.swift */; };
+		4621E9CA1CD04CE600A22EBF /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621E9C91CD04CE600A22EBF /* QRCodeViewController.swift */; };
 		D77FA797F3C06F4E0DD9F530 /* Pods_iExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,7 @@
 		4621E9C31CCF935E00A22EBF /* SendExpressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendExpressViewController.swift; sourceTree = "<group>"; };
 		4621E9C51CCF960800A22EBF /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
 		4621E9C71CCFA3B300A22EBF /* ExpressCompanyGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressCompanyGroup.swift; sourceTree = "<group>"; };
+		4621E9C91CD04CE600A22EBF /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		AD12B43ADD18FF46077F153F /* Pods-iExpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B01CED3C6FEE9EE28DE742 /* Pods_iExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B65E9AED7699E12ABE4D96 /* Pods-iExpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iExpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-iExpress/Pods-iExpress.release.xcconfig"; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				4621E9AB1CCF92C300A22EBF /* CheckExpressViewController.swift */,
 				4621E9AC1CCF92C300A22EBF /* ExpressCompanyTableViewController.swift */,
 				4621E9AD1CCF92C300A22EBF /* ExpressResultTableViewController.swift */,
+				4621E9C91CD04CE600A22EBF /* QRCodeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				4621E9C61CCF960800A22EBF /* UILabel+Category.swift in Sources */,
 				4621E9C41CCF935E00A22EBF /* SendExpressViewController.swift in Sources */,
 				4621E9B71CCF92C300A22EBF /* ExpressResult.swift in Sources */,
+				4621E9CA1CD04CE600A22EBF /* QRCodeViewController.swift in Sources */,
 				4621E9C81CCFA3B300A22EBF /* ExpressCompanyGroup.swift in Sources */,
 				4621E9B51CCF92C300A22EBF /* ExpressResultTableViewController.swift in Sources */,
 			);
